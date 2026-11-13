@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: meu-repo-teste
+  description: Repositório de teste para o lab de Backstage
+  annotations:
+    github.com/project-slug: wandermaia/meu-repo-teste
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:time-backend
